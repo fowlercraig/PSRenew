@@ -4629,7 +4629,7 @@
 		"outputPathIsSetByUser": 1,
 		"outputStyle": 0,
 		"relativeURLS": 0,
-		"shouldRunAutoprefixer": 0,
+		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"strictImports": 0,
 		"strictMath": 0,
@@ -9668,6 +9668,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/page-partners.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/page-partners.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/page.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -9738,6 +9747,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/snippets\/instagram-items.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/snippets\/partner-item.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/snippets\/partner-item.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

@@ -19,6 +19,11 @@
 .green {
   color: #6bba45;
 }
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 /*-------------------------------------------
   Bookmarklet
 -------------------------------------------*/
