@@ -1,0 +1,76 @@
+#subscribe-box {
+
+  max-width: 800px;
+  position: relative;
+
+  .mfp-close {
+    color: @white;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+  }
+
+  .form {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: @black25;
+    > .row {
+      margin: 0!important;
+      width: 100%;
+    }
+
+  }
+
+  form {
+
+    padding: 20px 50px ;
+    margin: 0;
+
+    &:after {
+      content: '';
+      display: block;
+      clear: both;
+    }
+
+    input {
+      margin-bottom: 0;
+      border-radius: 0;
+      border: 0;
+      &[type=submit] {
+        background: @yellow;
+        color: darken(@yellow, 25%);
+      }
+    }
+
+    > .desktop-4 {
+      min-width: 100%;
+      margin: 0;
+    }
+
+    &.mc4wp-form-success {
+      .desktop-4 {
+        display: none;
+      }
+    }
+
+
+  }
+
+}
+
+.yooolo {
+
+  .mfp-content {
+    padding: 0!important;
+    max-width: 800px!important;
+  }
+
+}

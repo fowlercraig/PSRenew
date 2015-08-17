@@ -1,0 +1,190 @@
+#header {
+  font-size: 18px;
+  .menu {
+    li {
+      a {
+        color: @green
+      }
+      &.current-menu-item {
+        a {
+          color: darken(@green, 20%)
+        }
+      }
+    }
+  }
+  .text-right {
+    li {
+      a {
+        color: @yellow;
+        line-height: 1;
+        font-size: 24px;
+        margin-left: 5px;
+        &:hover {
+          color: darken(@yellow, 5%)
+        }
+      }
+    }
+  }
+  #menu-primary-navigation {
+    li {
+      &:first-child {
+        margin-right: 20px;
+        display: block;
+        float: left;
+        margin-top: -3px;
+        a {
+          display: block;
+          text-indent: -9999px;
+          height: 26px;
+          width: 125px;
+          background: url(/assets/img/pershingsquarelogo-small.png) top left no-repeat;
+        }
+      }
+    }
+  }
+}
+
+.page-header {
+  .entry-title {
+    color: @green;
+    font-weight: 100;
+    font-size: 400%;
+  }
+  @media @mobileC {
+  .entry-title {
+    color: @green;
+    font-weight: 200;
+    font-size: 250%;
+  }
+}
+}
+
+.page-content {
+
+  @media @mobile {
+    font-size: 18px;
+  }
+
+  @media @tablet {
+    font-size: 28px;
+  }
+
+  @media @desktop {
+    font-size: 22px;
+  }
+  
+  color: @lightGray;
+  p {
+    color: inherit;
+  }
+}
+
+.button {
+  text-transform: lowercase;
+}
+
+#foot {
+  a {
+    color: @lightGray;
+  }
+  .text-right {
+    a {
+      margin-left: 8px;
+    }
+  }
+  .green {
+    font-weight: bold;
+    color: @green;
+  }
+  @media @mobileC {
+    .text-right {
+      padding-top: 10px;
+      text-align: left;
+      font-size: 14px;
+      a {
+        margin-left: 0;
+        margin-right: 8px;
+      }
+    }
+  }
+}
+
+.tabbed {
+  .tabber-tab {
+    header{
+      p {
+        color: @white
+      }
+    }
+    .title {
+      color: @white;
+      font-size: 140%;
+      font-weight: 600;
+    }
+    p {
+      color: @black50
+    }
+    .beheard {
+      background-size: cover;
+      .title {
+        font-size: 24px;
+      }
+      p {
+        color: #fff;
+      }
+    }
+  }
+}
+
+.section {
+  .title {
+    font-size: 36px;
+    line-height: 1.4;
+    color: @green;
+  }
+  @media @mobileC {
+    .title {
+    font-size: 24px;
+    line-height: 1.4;
+    color: @green;
+  }
+  }
+  &.dark {
+    .title {
+      color: @white;
+    }
+    color: @black50;
+  }
+  i {
+    color: @green;
+    font-size: 24px;
+  }
+}
+
+.dream {
+  .title {
+    margin-bottom: 0;
+    font-size: 24px;
+    a {
+      color: @green;
+    }
+  }
+  i {
+    font-size: 120%;
+    display: block;
+    float: left;
+    height: 20px;
+    margin-bottom: -2px;
+    margin-right: 10px;
+    color: @green
+  }
+}
+
+.gallery {
+  .imageMeta {
+    .title {
+      color: @white
+    }
+  }
+}
+

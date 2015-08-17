@@ -1,0 +1,71 @@
+article, .page-content {
+
+  padding-top: 50px;
+
+  h1,h2,h3,h4,h5 {
+    color: darken(@green, 0%)
+  }
+
+  header, .page-header {
+
+    margin-bottom: 25px;
+
+    .entry-title {
+
+      margin: 0;
+
+      a {
+
+        color: @green;
+
+      }
+
+    }
+
+  }
+
+  img {
+
+    display: block;
+    max-width: 100%;
+    height: auto;
+
+    &.wp-post-image {
+
+      margin: 0 0 20px;
+
+    }
+
+  }
+
+  .entry-content {
+
+    p {
+
+      margin-bottom: 20px;
+      .font_size(16);
+
+    }
+
+  }
+
+  footer {
+    border-bottom: 1px solid #eee;
+    padding: 5px 0;
+    p {
+      color: @green;
+      margin: 0;
+      a {
+        color: inherit;
+        border-bottom: 1px solid @green;
+      }
+    }
+  }
+
+}
+
+.page-content, article.single {
+
+  padding-top: 0;
+
+}
