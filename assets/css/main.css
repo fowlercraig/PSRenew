@@ -7177,3 +7177,46 @@ article footer p a,
 article.single {
   padding-top: 0;
 }
+.timeline {
+  background: #f8f8f8;
+  padding: 15px 25px;
+}
+.timeline h3 {
+  color: #6bba45;
+  font-size: 18px;
+  font-size: 1.125rem;
+  padding-bottom: 3px;
+}
+.timeline ul {
+  border-left: 2px solid #a6d68f;
+  padding-left: 20px;
+  position: relative;
+}
+.timeline ul li {
+  list-style: none;
+  line-height: 1.7;
+  margin: 0;
+  color: #999999;
+  padding-left: 8px;
+  font-size: 14px;
+  font-size: 0.875rem;
+}
+.timeline ul li.title {
+  color: #666666;
+  font-weight: 600;
+  padding-left: 0;
+  font-size: 15px;
+  font-size: 0.9375rem;
+}
+.timeline ul li.title:before {
+  content: '';
+  display: inline-block;
+  height: 8px;
+  width: 8px;
+  background-color: #6bba45;
+  position: absolute;
+  left: 0;
+  top: 9px;
+  margin-left: -25px;
+  border-radius: 50%;
+}
