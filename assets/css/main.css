@@ -7177,6 +7177,29 @@ article footer p a,
 article.single {
   padding-top: 0;
 }
+.btn-dl {
+  background: #6bba45;
+  color: #ffffff;
+  display: inline-block;
+  height: 60px;
+  line-height: 50px;
+  text-align: center;
+  font-weight: 600;
+  width: 100%;
+  border-radius: 3px;
+  border-bottom: 2px solid #569537;
+}
+.btn-dl:before {
+  font-size: 27px;
+  font-size: 1.6875rem;
+  position: relative;
+  top: .195em;
+  margin-right: 8px;
+}
+.btn-dl:active {
+  border-bottom: 0;
+  margin-top: 1px;
+}
 .timeline {
   background: #f8f8f8;
   padding: 15px 25px;

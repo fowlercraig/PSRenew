@@ -1,3 +1,31 @@
+.btn {
+
+   &-dl {
+      background: @green;
+      color: @white;
+      display: inline-block;
+      height: 60px;
+      line-height: 50px;
+      text-align: center;
+      font-weight: 600;
+      width: 100%;
+      border-radius: 3px;
+      border-bottom: 2px solid darken(@green, 10%);
+      //transition: 300ms ease;
+      &:before {
+         .font_size(27);
+         position: relative;
+         top: .195em;
+         margin-right: 8px;
+      }
+      &:active {
+         border-bottom: 0;
+         margin-top: 1px;
+      }
+   }
+
+}
+
 .timeline {
 
    background: @bgGray;
