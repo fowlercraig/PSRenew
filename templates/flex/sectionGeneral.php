@@ -10,9 +10,11 @@
     <div class="desktop-8" id="panel-<?php echo $i; ?>">
       <h3 class="title"><?php the_sub_field('general_title'); ?></h3>
       <?php the_sub_field('general_description'); ?>
+      <?php if(get_sub_field('video_embed')): ?>
       <div class="embed-container">
         <?php the_sub_field('video_embed'); ?>
       </div>
+      <?php endif; ?>
     </div>
 
     <? } else { ?>
