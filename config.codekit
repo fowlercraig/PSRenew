@@ -104,6 +104,15 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1
 		},
+	"\/assets\/bower_components\/Gridlock\/css\/fs.gridlock.ie.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/bower_components\/Gridlock\/css\/fs.gridlock.ie.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/assets\/bower_components\/Gridlock\/demo\/demo-fluid-mobile.html": {
 		"fileType": 8192,
 		"ignore": 0,

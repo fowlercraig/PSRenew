@@ -185,6 +185,10 @@
 		border: none;
 		clear: both;
 		margin: 15px 0;
+		&.divider {
+			height: 1px;
+			background-color: @lighterGray;
+		}
 	}
 
 	// Code
@@ -396,7 +400,7 @@
 		text-transform: uppercase;
 		user-select: none;
 
-		@media @tablet {
+		@media @mobile {
 			display: inline-block;
 			margin: 0 10px 10px 0;
 			padding: 0 30px;

@@ -639,7 +639,7 @@ img.rsImg {
   box-sizing: border-box;
 }
 .gridlock .row {
-  width: 300px;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -5944,6 +5944,10 @@ hr {
   clear: both;
   margin: 15px 0;
 }
+hr.divider {
+  height: 1px;
+  background-color: #cccccc;
+}
 pre,
 code {
   font-size: 14px;
@@ -6114,7 +6118,7 @@ table .default {
       -ms-user-select: none;
           user-select: none;
 }
-@media screen and (min-width: 740px) {
+@media screen and (min-width: 320px) {
   .button {
     display: inline-block;
     margin: 0 10px 10px 0;
@@ -6470,9 +6474,29 @@ body .border-bottom {
     padding-top: 40px;
   }
 }
+@media screen and (min-width: 320px) {
+  #header {
+    margin-bottom: 10px;
+  }
+}
+@media screen and (min-width: 740px) {
+  #header {
+    margin-bottom: 0;
+  }
+}
 #header .menu {
   padding-left: 0;
-  margin-bottom: 0;
+  overflow: visible;
+}
+@media screen and (min-width: 320px) {
+  #header .menu {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (min-width: 740px) {
+  #header .menu {
+    margin-bottom: 0;
+  }
 }
 #header .menu li {
   margin-top: 0;
@@ -6485,6 +6509,9 @@ body .border-bottom {
 #header .menu.text-right li {
   margin-left: 0;
   margin-right: 0;
+}
+#header .menu.naver.enabled.open .naver-wrapper {
+  height: auto!important;
 }
 #header .menu.naver.enabled.open .naver-container li {
   display: block;
@@ -6502,6 +6529,9 @@ body .border-bottom {
 }
 #header .menu.naver.enabled.open .naver-container li:last-child {
   border-bottom: none;
+}
+#header .menu.naver.enabled.open .naver-container li:last-child a {
+  border-bottom: 0;
 }
 #header.home #menu-primary-navigation li:first-child {
   display: none;
@@ -7011,6 +7041,18 @@ body .border-bottom {
 .share-button .social li {
   position: relative;
 }
+.share span {
+  margin-right: 10px;
+}
+.share-link {
+  color: #6bba45;
+}
+.share-link:before {
+  font-size: 19px;
+  font-size: 1.1875rem;
+  position: relative;
+  top: .20em;
+}
 #subscribe-box {
   max-width: 800px;
   position: relative;
@@ -7086,6 +7128,16 @@ body .border-bottom {
 #home--slider .slider .slide header .button {
   margin-top: 10px;
   background: #4b8230;
+}
+@media screen and (min-width: 320px) {
+  #home--slider .slider .slide header .button {
+    float: left;
+  }
+}
+@media screen and (min-width: 740px) {
+  #home--slider .slider .slide header .button {
+    float: none;
+  }
 }
 #home--slider .slider .slide header .button.nav {
   background: none;

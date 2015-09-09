@@ -66,9 +66,26 @@ body {
     padding-top: 40px;
   }
 
+  @media @mobile {
+      margin-bottom: 10px;
+    }
+    @media @tablet {
+      margin-bottom: 0;
+    }
+      
+
   .menu {
     padding-left: 0;
-    margin-bottom: 0;
+    overflow: visible;
+    
+    @media @mobile {
+      margin-bottom: 20px;
+    }
+    @media @tablet {
+      margin-bottom: 0;
+    }
+      
+
     li {
       margin-top: 0;
       margin-right: 10px;
@@ -86,7 +103,7 @@ body {
     &.naver.enabled.open {
       //height: auto!important;
       .naver-wrapper {
-        //height: auto!important;
+        height: auto!important;
       }
       .naver-container {
         //width: 100%;
@@ -105,6 +122,9 @@ body {
           }
           &:last-child {
             border-bottom: none;
+            a {
+              border-bottom: 0;
+            }
           }
         }
       }
@@ -727,6 +747,22 @@ body {
     left: 100%!important;
     li {
       position: relative;
+    }
+  }
+}
+
+
+.share {
+  span {
+    margin-right: 10px;
+  }
+  &-link {
+    color: @green;
+
+    &:before {
+      .font_size(19);
+      position: relative;
+      top: .20em;
     }
   }
 }
