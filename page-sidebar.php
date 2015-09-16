@@ -6,6 +6,8 @@
       <hr>
       <?php get_template_part('templates/page', 'content'); ?>
       <hr class="invisible">
+
+      <?php include locate_template('templates/faq.php' ); ?>
       
       <?php if( have_rows('partners') ): ?>
       <div class="partners-group row">

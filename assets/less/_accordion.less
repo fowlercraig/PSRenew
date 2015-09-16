@@ -1,0 +1,32 @@
+.accordion {
+
+   padding: 0;
+
+   &-wrapper {
+      padding: 0;
+   }
+
+   &-header {
+      &__title {
+         .font_size(15);
+         font-weight: 700;
+         margin-bottom:25px;
+      }
+   }
+
+   &-item {
+
+      margin: 0;
+      display: block;
+
+      &:before {
+         display: none;
+      }
+
+      &__question {
+         color: darken( @green, 10%);
+      }
+
+   }
+
+}

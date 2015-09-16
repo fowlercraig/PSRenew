@@ -18,4 +18,5 @@
 
 // My Shit
 
+// @codekit-append "_accordion.js";
 // @codekit-append "_scripts.js";

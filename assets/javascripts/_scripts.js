@@ -2,6 +2,8 @@
 
 $(document).ready(function() {
 
+	$('.accordion-wrapper').accordion();
+
 	// var visited = $.cookie("visited")
 
 	// if (visited == null) {
