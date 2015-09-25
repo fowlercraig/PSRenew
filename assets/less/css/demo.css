@@ -17,6 +17,16 @@
 .bg-grey {
   background: #f8f8f8;
 }
+.bg-color--purple {
+  background: #573891;
+  color: #ffffff;
+}
+.bg-color--purple a {
+  color: inherit;
+}
+.bg-color--purple p {
+  color: inherit;
+}
 /*-------------------------------------------
   Mixins
 -------------------------------------------*/
@@ -3885,7 +3895,7 @@ table .default {
   text-transform: uppercase;
   user-select: none;
 }
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 500px) {
   .button {
     display: inline-block;
     margin: 0 10px 10px 0;

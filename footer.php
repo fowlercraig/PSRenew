@@ -12,7 +12,7 @@
   </div>
 </footer><!--Footer-->
 
-<?php if (isset($_GET['thanks'])) { echo 'fudge'; } ?>
+<?php if (isset($_GET['thanks'])) { } ?>
 <?php include locate_template('templates/subscribe.php' );?>
 
 </div><!-- Wrapper -->

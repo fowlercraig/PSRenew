@@ -2,6 +2,18 @@
 
 $(document).ready(function() {
 
+	// Innovate Stuff
+
+	var wh = $(window).height();
+
+	$('#inno-header').css({
+		height: wh,
+	});
+
+	$('#inno-header_content').animate({
+		opacity:1
+	}, 2000);
+
 	$('.accordion-wrapper').accordion();
 
 	// var visited = $.cookie("visited")

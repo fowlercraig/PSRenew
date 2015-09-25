@@ -13,6 +13,16 @@
 .bg-grey {
   background: #f8f8f8;
 }
+.bg-color--purple {
+  background: #573891;
+  color: #ffffff;
+}
+.bg-color--purple a {
+  color: inherit;
+}
+.bg-color--purple p {
+  color: inherit;
+}
 /*-------------------------------------------
   Mixins
 -------------------------------------------*/

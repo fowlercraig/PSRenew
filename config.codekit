@@ -4139,6 +4139,28 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
+	"\/assets\/img\/arrow-left.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3087,
+		"inputAbbreviatedPath": "\/assets\/img\/arrow-left.png",
+		"outputAbbreviatedPath": "\/assets\/img\/arrow-left.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/arrow-right.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5672,
+		"inputAbbreviatedPath": "\/assets\/img\/arrow-right.png",
+		"outputAbbreviatedPath": "\/assets\/img\/arrow-right.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/corner-01.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -4157,6 +4179,17 @@
 		"initialSize": 9043,
 		"inputAbbreviatedPath": "\/assets\/img\/cornerright-01.png",
 		"outputAbbreviatedPath": "\/assets\/img\/cornerright-01.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/footer-bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 70416,
+		"inputAbbreviatedPath": "\/assets\/img\/footer-bg.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/footer-bg.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4212,6 +4245,39 @@
 		"initialSize": 615685,
 		"inputAbbreviatedPath": "\/assets\/img\/PS-Logo_JHuizar-01.jpg",
 		"outputAbbreviatedPath": "\/assets\/img\/PS-Logo_JHuizar-01.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/re_logo-white.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8479,
+		"inputAbbreviatedPath": "\/assets\/img\/re_logo-white.png",
+		"outputAbbreviatedPath": "\/assets\/img\/re_logo-white.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/re_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 40329,
+		"inputAbbreviatedPath": "\/assets\/img\/re_logo.png",
+		"outputAbbreviatedPath": "\/assets\/img\/re_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/tagline.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28455,
+		"inputAbbreviatedPath": "\/assets\/img\/tagline.png",
+		"outputAbbreviatedPath": "\/assets\/img\/tagline.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4378,6 +4444,26 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/less\/_homeslider.less",
 		"outputAbbreviatedPath": "\/assets\/css\/_homeslider.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"\/assets\/less\/_innovate.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/less\/_innovate.less",
+		"outputAbbreviatedPath": "\/assets\/css\/_innovate.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -9728,6 +9814,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/page-innovate.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/page-innovate.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/page-instasgram.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -9951,6 +10046,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/templates\/page-header.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/templates\/sharepage.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/templates\/sharepage.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
