@@ -3,7 +3,7 @@
 <div id="inno">
 
   <section id="inno-header" class="bg bg-color--purple" style="background-image: url(<?php the_field('background_image_top'); ?>);">
-    <div id="inno-header_content" style="opacity:1;">
+    <div id="inno-header_content" style="opacity:0;">
       <div class="row">
         <div class="desktop-6 tablet-4 mobile-2 centered text-center">
           <a id="inno-header_logo" href="#inno-headline"><img src="/assets/img/re_logo-white.png" class="img-responsive" alt="ReInnovate" /></a>
