@@ -25,7 +25,13 @@ body.innovate {
     background-size: cover;
     background-position: bottom center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    
+    @media @min {
+      background-attachment: scroll;
+    }
+    @media @desktop {
+      background-attachment: fixed;
+    }
     &-scroll {
       background-attachment: scroll;
       background-position: center center

@@ -7347,7 +7347,16 @@ body.innovate #content {
   background-size: cover;
   background-position: bottom center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+}
+@media screen and (min-width: 320px) {
+  #inno .bg {
+    background-attachment: scroll;
+  }
+}
+@media screen and (min-width: 980px) {
+  #inno .bg {
+    background-attachment: fixed;
+  }
 }
 #inno .bg-scroll {
   background-attachment: scroll;
