@@ -157,7 +157,7 @@ function opengraph_default_image( $image ) {
 
     // then list any image attachments
     $attachments = get_children( array('post_parent' => $id, 'post_status' => 'inherit',
-      'post_type' => 'attachment', 'post_mime_type' => 'image', 'order' => 'ASC',
+      'post_type' => 'attachment', 'post_mime_type' => 'image', 'posts_per_page' => 1, 'order' => 'ASC',
       'orderby' => 'menu_order ID') );
     foreach($attachments as $attachment) {
       if ( !in_array($attachment->ID, $image_ids) ) {
