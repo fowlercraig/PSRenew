@@ -150,7 +150,7 @@ function opengraph_default_image( $image ) {
 
     // list post thumbnail first if this post has one
     if ( function_exists('has_post_thumbnail') ) {
-      if ( is_singular() && has_post_thumbnail($id) ) {
+      if ( is_page() && has_post_thumbnail($id) ) {
         $image_ids[] = get_post_thumbnail_id($id);
       }
     }
@@ -168,9 +168,9 @@ function opengraph_default_image( $image ) {
     // get URLs for each image
     $image = array();
     foreach($image_ids as $id) {
-      $thumbnail = wp_get_attachment_image_src( $id, 'large');
+      $thumbnail = wp_get_attachment_image_src( $id, 'medium');
       if ($thumbnail) {
-        $image[] = $thumbnail;
+        $image[] = $thumbnail[0];
       }
     }
   }
