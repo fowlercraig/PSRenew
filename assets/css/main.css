@@ -7606,3 +7606,15 @@ body.innovate #content {
   line-height: 47px;
   background: 0;
 }
+#inno .gallery-item {
+  border-color: #ffffff;
+}
+#inno .gallery-item .gallery-icon {
+  color: #ffffff;
+}
+#inno .gallery-item img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-color: #ffffff;
+}

@@ -54,6 +54,14 @@
     </div>
   </section>
 
+  <section id="inno-tickets">
+     <div class="row">
+      <div class="desktop-9 tablet-4 mobile-3 centered">
+        <h2>Sponsors</h2>
+        <?php the_field('sponsors'); ?>
+      </div>
+    </div>
+  </section>
 
   <section id="inno-footer" class="bg bg-scroll bg-color--purple" style="background-image: url(<?php the_field('background_image_bottom'); ?>);">
      <div class="row">
