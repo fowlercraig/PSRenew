@@ -3,6 +3,7 @@
 <div id="inno">
 
   <section id="inno-header" class="bg bg-color--purple" style="background-image: url(<?php the_field('background_image_top'); ?>);">
+    <a id="inno-back" class="ss-gizmo ss-left btn btn-back" href="/">Back Home</a>
     <div id="inno-header_content" style="opacity:0;">
       <div class="row">
         <div class="desktop-6 tablet-4 mobile-2 centered text-center">

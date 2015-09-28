@@ -7333,6 +7333,22 @@ body.innovate #header {
 body.innovate #content {
   padding-top: 0;
 }
+#inno-back {
+  position: absolute;
+  margin: 25px;
+  top: 0;
+  color: rgba(255, 255, 255, 0.5);
+  -webkit-transition: 300ms ease;
+          transition: 300ms ease;
+}
+#inno-back:before {
+  position: relative;
+  top: .185em;
+  margin-right: 10px;
+}
+#inno-back:hover {
+  color: #ffffff;
+}
 #inno section {
   padding: 60px 0;
 }
