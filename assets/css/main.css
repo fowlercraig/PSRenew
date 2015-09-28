@@ -7545,3 +7545,48 @@ body.innovate #content {
 #inno-tickets {
   padding-bottom: 0;
 }
+#inno-footer h3 {
+  color: #ffffff;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 5px;
+  display: block!important;
+}
+#inno-footer h3:before {
+  position: relative;
+  top: .175em;
+  margin-right: 8px;
+}
+#inno-footer .mc-email {
+  background: none;
+  color: #ffffff;
+  padding: 0;
+  border: 0;
+  margin: 0;
+  display: block;
+  border-bottom: 1px solid #ffffff;
+  border-radius: 0;
+  height: 30px;
+  line-height: 30px;
+}
+#inno-footer .mc-email::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+#inno-footer .mc-email::-moz-input-placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+#inno-footer .mc-email:-moz-input-placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+#inno-footer .mc-email::-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+#inno-footer .mc-submit {
+  padding: 0;
+  display: block;
+  margin: 0;
+  border: 0;
+  height: 47px;
+  line-height: 47px;
+  background: 0;
+}
