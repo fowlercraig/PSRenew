@@ -41,7 +41,7 @@ $settings = array(
 ),
 
 'default_scripts'   => array(
-'jquery-g',
+//'jquery-g',
 'scripts'),
 
 'available_stylesheets' => array(
@@ -52,7 +52,7 @@ $settings = array(
 'default'
 ),
 
-'deregister_scripts' => array('jquery','l10n')
+'deregister_scripts' => array('','l10n'),
 
 );
 
@@ -70,3 +70,10 @@ if( function_exists('acf_add_options_page') ) {
   )); 
   
 }
+
+if (!is_admin()) add_action("wp_enqueue_scripts", "my_jquery_enqueue", 11);
+ function my_jquery_enqueue() {
+    wp_deregister_script('jquery');
+    wp_register_script('jquery', "http" . ($_SERVER['SERVER_PORT'] == 443 ? "s" : "") . "://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js", array(), '1.0.0', false);
+    wp_enqueue_script('jquery');
+ }
