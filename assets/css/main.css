@@ -7266,6 +7266,10 @@ article.single {
   background: #f8f8f8;
   padding: 15px 25px;
 }
+.timeline .btn,
+.timeline .button {
+  background: #6bba45;
+}
 .timeline h3 {
   color: #6bba45;
   font-size: 18px;
