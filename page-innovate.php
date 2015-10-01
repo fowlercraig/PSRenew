@@ -17,7 +17,7 @@
   <section id="inno-headline">
      <div class="row">
       <div class="desktop-9 tablet-4 mobile-3 centered">
-        <img src="/assets/img/tagline.png" class="img-responsive" alt="ReInnovate" />
+        <img src="<?php the_field('tagline_image'); ?>" class="img-responsive" alt="ReInnovate" />
       </div>
     </div>
   </section>
