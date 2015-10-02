@@ -6,8 +6,8 @@
     <a id="inno-back" class="ss-gizmo ss-left btn btn-back" href="/">Back Home</a>
     <div id="inno-header_content" style="opacity:0;">
       <div class="row">
-        <div class="desktop-6 tablet-4 mobile-2 centered text-center">
-          <a id="inno-header_logo" href="#inno-headline"><img src="/assets/img/re_logo-white.png" class="img-responsive" alt="ReInnovate" /></a>
+        <div class="desktop-7 tablet-4 mobile-2 centered text-center">
+          <a id="inno-header_logo" href="#inno-headline"><img src="/assets/img/innovate.svg" class="img-responsive" alt="ReInnovate" /></a>
           <a href="#inno-headline" class="down ss-gizmo ss-navigatedown"></a>
         </div>
       </div>

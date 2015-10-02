@@ -7400,7 +7400,6 @@ body.innovate #content {
   bottom: 0;
   left: 0;
   width: 100%;
-  mix-blend-mode: overlay;
 }
 #inno-header .down {
   font-size: 50px;
